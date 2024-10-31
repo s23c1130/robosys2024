@@ -11,4 +11,5 @@ for line in sys.stdin:
 		ans += int(line)
 	except:
 		ans += float(line)
+		
 print(ans)
